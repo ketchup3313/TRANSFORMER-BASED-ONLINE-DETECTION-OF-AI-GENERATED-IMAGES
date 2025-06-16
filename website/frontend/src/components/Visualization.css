@@ -1,0 +1,59 @@
+.visualization-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.tab:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.tab-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.frequency-analysis p,
+.attention-map p {
+  margin-bottom: 20px;
+}
+
+.heatmap-placeholder {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  border: 2px dashed #ccc;
+}
+
+.note {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
